@@ -1,0 +1,180 @@
+/* General page styling */
+.show-ingredient-items-container {
+ margin: 0px  80px;
+  
+}
+
+/* Page header */
+.show-ingredient-page-header {
+  position: relative;
+  
+}
+
+.show-ingredient-page-header-title {
+ 
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Table container */
+.show-ingredient-items-table-container {
+  
+  
+  border-radius: 8px;
+  
+  
+}
+
+/* Header */
+.show-ingredient-items-header {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 0px;
+  margin-top:30px;
+}
+
+/* Search and filter section */
+.show-ingredient-items-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.show-ingredient-search-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+}
+
+.show-ingredient-filter-select,
+.show-ingredient-search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.show-ingredient-search-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-ingredient-search-button:hover {
+  background-color: #0056b3;
+}
+
+.show-ingredient-add-button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.show-ingredient-add-button,
+.show-ingredient-update-quantity-button,
+.show-ingredient-generate-report-button {
+  background-color: #f9a825;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.show-ingredient-add-button:hover,
+.show-ingredient-update-quantity-button:hover,
+.show-ingredient-generate-report-button:hover {
+  background-color: #ff9800;
+}
+
+/* Table styling */
+.show-ingredient-min-w-full {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.show-ingredient-bg-items {
+  background-color: #fff;
+}
+
+.show-ingredient-thead tr {
+  background-color: #D6D6D6;
+  color: rgb(0, 0, 0);
+  
+}
+
+.show-ingredient-th,
+.show-ingredient-td {
+  padding: 12px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  
+  
+
+
+}
+
+
+
+.show-ingredient-tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+/* Action buttons */
+.show-ingredient-edit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.show-ingredient-edit-button:hover {
+  background-color: #45a049;
+}
+
+.show-ingredient-delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.show-ingredient-delete-button:hover:not(.disabled) {
+  background-color: #c0392b;
+}
+
+/* Disabled delete button for supervisors */
+.show-ingredient-delete-button.disabled {
+  background-color: #ccc; /* Gray color */
+  cursor: not-allowed; /* Unclickable cursor */
+  opacity: 0.7; /* Slightly faded */
+}
+
+/* Responsive design */
+.show-ingredient-th{
+  text-align: center;
+}
+.show-ingredient-td{
+  
+  text-align: center;
+}
