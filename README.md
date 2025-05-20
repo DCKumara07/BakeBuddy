@@ -53,6 +53,8 @@ Welcome to **BakeBuddy**, an all-in-one bakery management system designed to str
   _Developed by: **Dilshan Chamikara**_
 </details>
 
+<image>![image](https://github.com/user-attachments/assets/bc6f34c9-2231-4755-b704-d44a5fce7335)
+</image>
 
 ## 🛠️ Tech Stack  
 - **Frontend:** React.js  
